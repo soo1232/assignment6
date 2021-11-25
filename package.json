@@ -1,0 +1,18 @@
+{
+  "name": "inm320-bootstrap-assignment",
+  "version": "2.0.0",
+  "description": "",
+  "scripts": {
+    "dev":"lite-server --baseDir=\"public\"", 
+    "watch":"node-sass src/scss -wo public/assets/css", 
+    "start":"concurrently \"npm run watch\" \"npm run dev\""
+  },
+  "keywords": [],
+  "author": "Soo Jin Oh",
+  "license": "private",
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "lite-server": "^2.6.1",
+    "node-sass": "^6.0.1"
+  }
+}
